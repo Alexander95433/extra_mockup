@@ -1,0 +1,15 @@
+.header__link-wapper {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.header__link-wapper:nth-child(9) {
+    border-left: solid 1px;
+    padding-left: var(--padding-header);
+}
+
+.header__link-wapper:nth-child(13) {
+    border-right: solid 1px;
+    padding-right: var(--padding-header);
+}

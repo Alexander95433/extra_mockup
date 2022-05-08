@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Formular';
+    font-style: 'normal';
+    font-display: swap;
+    font-weight: 300;
+    src: url(./Formular-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Neue_Machina';
+    font-style: 'normal';
+    font-display: swap;
+    font-weight: 400;
+    src: url(./PPNeueMachina-Regular.woff2) format('woff2');
+}

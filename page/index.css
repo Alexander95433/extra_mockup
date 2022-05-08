@@ -1,1 +1,117 @@
+/*normalize*/
 @import url(../vendor/normalize.css);
+/*font-face*/
+@import url(../vendor/fonts/font-face.css);
+
+/*page*/
+@import url(../blocks/page/page.css);
+
+/*logo*/
+@import url(../blocks/logo/logo.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link-wapper/header__link-wapper.css);
+@import url(../blocks/header/__support-link/header__support-link.css);
+
+
+/*title-poster*/
+
+.title-poster__title {
+    max-width: 38.75rem;
+    min-height: 7.5rem;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: -0.01em;
+    margin: 0 auto;
+    padding-top: 3.75rem;
+}
+
+.title-poster__link {
+    max-width: 8.25rem;
+    min-height: 2rem;
+    text-decoration: none;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--link-font-size);
+    line-height: var(--link-line-height);
+    color: var(--link-text-color);
+    margin: 0 auto;
+    padding-bottom: 0.25rem;
+}
+
+.title-poster__link::before {
+    content: url(../images/arrow-title__poster.svg);
+    vertical-align: text-top;
+}
+
+.title-poster__subtitle {
+    max-width: 27rem;
+    min-height: 5.25rem;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--subtitle-font-size);
+    line-height: var(--subtitle-line-height);
+    letter-spacing: -0.01em;
+    color: var(--link-text-color);
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+/*content*/
+
+.content {}
+
+.content__event {
+    max-width: 419px;
+    min-height: 244px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "content__day content__time"
+        "content__title ."
+        "content__subtitle content__subtitle"
+        "content__footnote ."
+        "content_link .";
+
+}
+
+.content__day {
+    grid-area: content__day;
+}
+
+.content__time {
+    grid-area: content__time;
+}
+
+.content__title {
+    grid-area: content__title;
+}
+
+.content__subtitle {
+    grid-area: content__subtitle;
+}
+
+.content__footnote {
+    grid-area: content__footnote;
+}
+
+.content_link {
+    grid-area: content_link;
+    text-decoration: none;
+    color: var(--link-text-color);
+}
+
+.content_link::before {}

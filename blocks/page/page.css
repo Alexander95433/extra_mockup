@@ -1,0 +1,32 @@
+.page {
+    max-width: var(--content-width);
+    min-width: 300px;
+    margin:0 auto 0;
+    font-family:'Formular', 'Neue_Machina', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: var(--color-beige);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    --color-green: #B7C09D;
+    --color-beige: #E5E5E5;
+    --content-width:1440px;
+    /*header*/
+    --padding-header:25px;
+    --gap-header:25px;
+    /*title-poster*/
+    --title-font-size: 64px;
+    --title-line-height: 60px;
+
+    --subtitle-font-size: 20px;
+    --subtitle-line-height: 28px;
+
+    --link-font-size:16px;
+    --link-line-height:14px;
+    --link-text-color: #242424;
+    
+
+}

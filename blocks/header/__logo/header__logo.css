@@ -1,0 +1,5 @@
+.header__logo {
+    padding: 0 var(--padding-header);
+    background-repeat: no-repeat;
+    background-position: center;
+}

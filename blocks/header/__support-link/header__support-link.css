@@ -1,0 +1,9 @@
+.header__support-link {
+    display: contents;
+}
+
+.header__support-link::before {
+    content: url(../../../images/plus-header.svg);
+    position: relative;
+    top: 2px;
+}
