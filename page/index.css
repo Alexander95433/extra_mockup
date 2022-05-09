@@ -20,98 +20,48 @@
 
 /*title-poster*/
 
-.title-poster__title {
-    max-width: 38.75rem;
-    min-height: 7.5rem;
-    font-family: 'Neue_Machina';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--title-font-size);
-    line-height: var(--title-line-height);
-    letter-spacing: -0.01em;
-    margin: 0 auto;
-    padding-top: 3.75rem;
-}
-
-.title-poster__link {
-    max-width: 8.25rem;
-    min-height: 2rem;
-    text-decoration: none;
-    border-bottom: solid 1px;
-    border-left: solid 1px;
-    font-family: 'Formular';
-    font-style: normal;
-    font-weight: 300;
-    font-size: var(--link-font-size);
-    line-height: var(--link-line-height);
-    color: var(--link-text-color);
-    margin: 0 auto;
-    padding-bottom: 0.25rem;
-}
-
-.title-poster__link::before {
-    content: url(../images/arrow-title__poster.svg);
-    vertical-align: text-top;
-}
-
-.title-poster__subtitle {
-    max-width: 27rem;
-    min-height: 5.25rem;
-    font-family: 'Formular';
-    font-style: normal;
-    font-weight: 300;
-    font-size: var(--subtitle-font-size);
-    line-height: var(--subtitle-line-height);
-    letter-spacing: -0.01em;
-    color: var(--link-text-color);
-    margin: 0 auto;
-    padding-top: 1.5rem;
-}
+@import url(../blocks/title-poster/__title/title-poster__title.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/title-poster/__subtitle/title-poster__subtitle.css);
 
 /*content*/
 
-.content {}
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__event/content__event.css);
+@import url(../blocks/content/__time-box/content__time-box.css);
+@import url(../blocks/content/__day/content__day.css);
+@import url(../blocks/content/__time/content__time.css);
+@import url(../blocks/content/__title/content__title.css);
+@import url(../blocks/content/__subtitle-box/content__subtitle-box.css);
+@import url(../blocks/content/__subtitle/content__subtitle.css);
+@import url(../blocks/content/__footnote-box/content__footnote-box.css);
+@import url(../blocks/content/__link/content__link.css);
+@import url(../blocks/content/__event/content__event_picture.css);
+@import url(../blocks/content/__picture/content__picture.css);
+@import url(../blocks/content/__links/content__links.css);
+@import url(../blocks/content/__line/content__line.css);
 
-.content__event {
-    max-width: 419px;
-    min-height: 244px;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas:
-        "content__day content__time"
-        "content__title ."
-        "content__subtitle content__subtitle"
-        "content__footnote ."
-        "content_link .";
+/*news*/
+.news {
+    margin: 122px 0 0;
+    width: calc(100% - 338px);
+}
+
+.news__title-wrapper {
+    width: 100%;
+    border-top: solid #242424 1px;
 
 }
 
-.content__day {
-    grid-area: content__day;
+.news__title {
+    margin: 0;
+    padding-bottom: 20px;
 }
 
-.content__time {
-    grid-area: content__time;
+.news__content {}
+
+.news__subtitle {
+    margin: 0;
 }
 
-.content__title {
-    grid-area: content__title;
-}
-
-.content__subtitle {
-    grid-area: content__subtitle;
-}
-
-.content__footnote {
-    grid-area: content__footnote;
-}
-
-.content_link {
-    grid-area: content_link;
-    text-decoration: none;
-    color: var(--link-text-color);
-}
-
-.content_link::before {}
+.news__picture {}

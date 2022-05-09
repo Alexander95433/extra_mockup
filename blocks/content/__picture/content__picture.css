@@ -1,0 +1,4 @@
+.content__picture {
+    grid-area: content__picture;
+    padding-right: 15px;
+}

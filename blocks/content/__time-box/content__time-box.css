@@ -1,0 +1,10 @@
+.content__time-box {
+    font-family:'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var( --subtitle-font-size);
+    line-height: var(--subtitle-line-height);
+    display: flex;
+    flex-direction: row;
+    grid-area: content__time-box;
+}

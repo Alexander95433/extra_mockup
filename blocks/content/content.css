@@ -1,0 +1,7 @@
+.content {
+    margin: 109PX 0 0 10px;
+    width: calc(100% - 338px);
+    display: grid;
+    grid-template-columns: repeat(1, 3fr) repeat(1, 1fr) repeat(1, 3fr);
+
+}

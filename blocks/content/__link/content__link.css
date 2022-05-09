@@ -1,0 +1,11 @@
+.content__link {
+    grid-area: content__link;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    position: static;
+    align-self: end;
+    text-decoration: none;
+    margin-top: 1rem;
+}

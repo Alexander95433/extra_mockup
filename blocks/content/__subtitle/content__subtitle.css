@@ -1,0 +1,9 @@
+.content__subtitle {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--subtitle-font-size-min);
+    line-height: var(--subtitle-line-height-min);
+    grid-area: content__subtitle;
+    margin: 0;
+}

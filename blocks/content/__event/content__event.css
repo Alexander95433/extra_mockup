@@ -1,0 +1,19 @@
+.content__event {
+    max-width: 419px;
+    height: 244px;
+    padding: 0 0 70px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "content__time-box content__time-box ."
+        "content__title . ."
+        "content__subtitle-box content__subtitle-box ."
+        "content__footnote-box . ."
+        "content__link . .";
+}
+
+.content__event:nth-of-type(2n - 1) {
+    padding-left: 30px;
+}

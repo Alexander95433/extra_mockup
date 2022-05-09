@@ -1,0 +1,14 @@
+.content__event_picture {
+    max-width: 419px;
+    height: 280px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "content__picture content__time-box content__time-box"
+        "content__picture content__title content__title"
+        "content__picture content__subtitle-box content__subtitle-box "
+        ". content__footnote-box ."
+        ". content__links . ";
+}

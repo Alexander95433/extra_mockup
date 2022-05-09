@@ -21,8 +21,16 @@
     --title-font-size: 64px;
     --title-line-height: 60px;
 
+    --titl-font-size-min: 36px;
+    --title-line-height-min: 38px;
+
     --subtitle-font-size: 20px;
     --subtitle-line-height: 28px;
+
+    --subtitle-font-size-min: 16px;
+    --subtitle-line-height-min: 22px;
+   
+
 
     --link-font-size:16px;
     --link-line-height:14px;

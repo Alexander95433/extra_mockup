@@ -1,0 +1,12 @@
+.title-poster__title {
+    max-width: 38.75rem;
+    min-height: 7.5rem;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: -0.01em;
+    margin: 0 auto;
+    padding-top: 3.75rem;
+}
