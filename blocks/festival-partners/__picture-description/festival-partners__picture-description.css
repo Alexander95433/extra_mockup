@@ -1,0 +1,9 @@
+.festival-partners__picture-description {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--festival-Partners__picture-description-font-size);
+    line-height: var(--festival-Partners__picture-description-line-height);
+    margin: auto;
+    margin-top: 0;
+}

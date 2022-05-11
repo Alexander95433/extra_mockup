@@ -71,57 +71,23 @@
 @import url(../blocks/video-archive/__subtitle/video-archive__subtitle.css);
 @import url(../blocks/video-archive/__picture/video-archive__picture.css);
 
-/*festival-Partners*/
+/*festival-partners*/
 
-.festival-Partners {
-    max-width: 1050px;
+@import url(../blocks/festival-partners/festival-partners.css);
+@import url(../blocks/festival-partners/__tetle/festival-partners__tetle.css);
+@import url(../blocks/festival-partners/__box/festival-partners__box.css);
+@import url(../blocks/festival-partners/__picture-wrapper/festival-partners__picture-wrapper.css);
+@import url(../blocks/festival-partners/__picture/festival-partners__picture.css);
+@import url(../blocks/festival-partners/__picture-description/festival-partners__picture-description.css);
 
-}
-
-.festival-Partners__tetle {
-    width: 100%;
-    font-family: 'Neue Machina';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--festival-Partners__tetle-font-size);
-    line-height: var(--festival-Partners__tetle-line-height);
-    letter-spacing: -0.01em;
-    margin: 107px 0 0 60px;
-}
-
-.festival-Partners__box {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    gap: 16px 30px;
-    margin-left: 120px;
-}
-
-.festival-Partners__picture-wrapper {
-    max-width: 210px;
-    min-height: 137px;
-    display: flex;
-    border: solid 1px;
-    flex-direction: column;
-    margin: 0;
-}
-
-.festival-Partners__picture {
-    mix-blend-mode: multiply;
-    width: 127px;
-    height: 47px;
-    margin: auto;
-
-
-}
-
-.festival-Partners__picture-description {
-    font-family: 'Formular';
-    font-style: normal;
-    font-weight: 300;
-    font-size: var(--festival-Partners__picture-description-font-size);
-    line-height: var(--festival-Partners__picture-description-line-height);
-    margin: auto;
-    margin-top: 0;
-}
-
-.festival-Partners__tetle {}
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__picture/footer__picture.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__wrapper-column-links/footer__wrapper-column-links.css);
+@import url(../blocks/footer/__column-links-cell/footer__column-links-cell.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__string/footer__string.css);
+@import url(../blocks/footer/__box-signature/footer__box-signature.css);
+@import url(../blocks/footer/__signature/footer__signature.css);

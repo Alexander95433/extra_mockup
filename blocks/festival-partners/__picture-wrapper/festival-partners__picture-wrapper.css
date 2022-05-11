@@ -1,0 +1,7 @@
+.festival-partners__picture-wrapper {
+    max-width: 13.1rem;
+    min-height: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}

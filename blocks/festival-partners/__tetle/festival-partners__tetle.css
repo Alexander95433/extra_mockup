@@ -1,0 +1,10 @@
+.festival-partners__tetle {
+    width: 100%;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--festival-Partners__tetle-font-size);
+    line-height: var(--festival-Partners__tetle-line-height);
+    letter-spacing: -0.01em;
+    margin: 6.6rem 0 0 3.75rem;
+}
