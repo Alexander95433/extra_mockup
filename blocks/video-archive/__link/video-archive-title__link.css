@@ -1,0 +1,10 @@
+.video-archive-title__link {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--link-font-size);
+    line-height: var(--link-line-height);
+    margin: 0;
+    position: relative;
+    bottom: 2.6rem;
+}

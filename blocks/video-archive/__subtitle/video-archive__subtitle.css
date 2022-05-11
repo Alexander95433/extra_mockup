@@ -1,0 +1,11 @@
+.video-archive__subtitle {
+    max-width: 27rem;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--video-archive__subtitle-font-size);
+    line-height: var(--video-archive__subtitle-line-height);
+    letter-spacing: -0.01em;
+    padding: 1.3rem 0 0 13.1rem;
+    margin: 0;
+}

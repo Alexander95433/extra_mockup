@@ -1,0 +1,10 @@
+.sites__block-subtitle {
+    max-width: 15.1rem;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--sites__block-subtitle-font-size);
+    line-height: var(--sites__block-subtitle-line-height);
+    margin: 0;
+    padding: 1rem 0 0 3.7rem;
+}

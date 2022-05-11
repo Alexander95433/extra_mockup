@@ -12,7 +12,8 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     --color-green: #B7C09D;
-    --color-beige: #E5E5E5;
+    --color-beige: #ECEBE8; 
+    --color-white: white;
     --content-width:1440px;
     /*header*/
     --padding-header:25px;
@@ -30,7 +31,26 @@
     --subtitle-font-size-min: 16px;
     --subtitle-line-height-min: 22px;
    
+    --news__title-font-size: 28px;
+    --news__title-line-height: 32px;
+    /*sites*/
+    --sites__block-title-font-size: 20px;
+    --sites__block-title-line-height: 24px;
+    --sites__block-subtitle-font-size: 16px; 
+    --sites__block-subtitle-line-height: 22px;
+    --sites__block-link-font-size: 16px;
+    --sites__block-link-line-height: 24px;
 
+    /*video-archive*/
+    --video-archive__subtitle-font-size: 20px;
+    --video-archive__subtitle-line-height: 28px;
+
+    /*festival-Partners*/
+    --festival-Partners__picture-description-font-size: 14px;
+    --festival-Partners__picture-description-line-height: 20px;
+
+    --festival-Partners__tetle-font-size: 28px;
+    --festival-Partners__tetle-line-height: 32px;
 
     --link-font-size:16px;
     --link-line-height:14px;

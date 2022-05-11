@@ -1,0 +1,11 @@
+.news__title {
+    max-width: 35.6rem;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--news__title-font-size);
+    line-height: var(--news__title-line-height);
+    letter-spacing: -0.01em;
+    margin: 0;
+    padding: 1.25rem 0 1.8rem 3.5rem;
+}

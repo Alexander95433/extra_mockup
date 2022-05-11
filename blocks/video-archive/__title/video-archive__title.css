@@ -1,0 +1,11 @@
+.video-archive__title {
+    max-width: 54.1rem;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: -0.01em;
+    padding: 4rem 0 0 9.3rem;
+    margin: 0;
+}

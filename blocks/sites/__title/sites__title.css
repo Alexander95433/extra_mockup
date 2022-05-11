@@ -1,0 +1,10 @@
+.sites__title {
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: -0.01em;
+    margin: 0;
+    padding: 4rem 0 0 3.8rem;
+}

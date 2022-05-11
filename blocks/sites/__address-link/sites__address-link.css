@@ -1,0 +1,19 @@
+.sites__address-link {
+    display: inline-block;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--sites__block-link-font-size);
+    line-height: var(--sites__block-link-line-height);
+    margin: 0;
+    text-decoration: none;
+    padding: 3.7rem 0 2.3rem 1.8rem;
+    color: var(--link-text-color);
+
+}
+
+.sites__address-link::after {
+    content: url(../../../images/map.svg);
+    vertical-align: top;
+    padding-left: 0.5rem;
+}

@@ -1,0 +1,4 @@
+.news__content {
+    display: flex;
+    border-top: solid #242424 1px;
+}
