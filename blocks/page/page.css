@@ -13,12 +13,13 @@
     text-rendering: optimizeLegibility;
     --color-green: #B7C09D;
     --color-beige: #ECEBE8;  
-
     --color-white: white;
     --content-width:1440px;
     /*header*/
     --padding-header:25px;
     --gap-header:25px;
+
+
     /*title-poster*/
     --title-font-size: 64px;
     --title-line-height: 60px;

@@ -9,6 +9,9 @@
 /*logo*/
 @import url(../blocks/logo/logo.css);
 
+/*header-wrapper*/
+@import url(../blocks/header-wrapper/header-wrapper.css);
+
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -20,6 +23,7 @@
 
 /*title-poster*/
 
+@import url(../blocks/title-poster/title-poster.css);
 @import url(../blocks/title-poster/__title/title-poster__title.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/title-poster/__subtitle/title-poster__subtitle.css);
@@ -91,3 +95,92 @@
 @import url(../blocks/footer/__string/footer__string.css);
 @import url(../blocks/footer/__box-signature/footer__box-signature.css);
 @import url(../blocks/footer/__signature/footer__signature.css);
+
+
+.blog-block {
+    position: fixed;
+    height: 740px;
+    top: 65px;
+    right: -19px;
+    width: 440px;
+    background-color: var(--color-green);
+    z-index: 1;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
+
+.blog-block__heading {
+    margin: 110px 0 36px 56px;
+
+
+}
+
+.blog-block__title {
+    max-width: 204px;
+    margin: 0;
+    padding-bottom: 32px;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+}
+
+.blog-block__link {
+    position: static;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    margin-left: 44px;
+
+}
+
+.blog-block__blog-preview {
+    width: 270px;
+    margin: 56px auto 0;
+}
+
+.blog-block__blog-preview-figure {
+    margin: 0;
+}
+
+.blog-block__blog-preview-picture {
+    margin: 0;
+    max-width: 270px;
+}
+
+.blog-block__blog-preview-picture-description {
+    margin: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+}
+
+.blog-block__blog-preview-title {
+    margin: 0;
+    font-family: 'Neue_Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-top: 16px;
+}
+
+.blog-block__blog-preview-subtitle {
+    margin: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 16px;
+    padding-left: 29px;
+}
