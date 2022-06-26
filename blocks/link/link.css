@@ -5,8 +5,8 @@
     font-family: 'Formular';
     font-style: normal;
     font-weight: 300;
-    font-size: var(--link-font-size);
-    line-height: var(--link-line-height);
+    font-size: 16px;
+    line-height: 14px;
     color: var(--link-text-color);
     position: relative;
     bottom: 10px;

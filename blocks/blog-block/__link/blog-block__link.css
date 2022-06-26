@@ -1,10 +1,9 @@
-.video-archive-title__link {
+.blog-block__link {
+    position: static;
     font-family: 'Formular';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 14px;
-    margin: 0;
-    position: relative;
-    bottom: 2.6rem;
+    margin-left: 44px;
 }

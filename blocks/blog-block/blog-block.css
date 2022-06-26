@@ -1,0 +1,11 @@
+.blog-block {
+    position: fixed;
+    height: 740px;
+    top: 65px;
+    right: 0px;
+    width: 440px;
+    background-color: var(--color-green);
+    z-index: 1;
+    box-sizing: border-box;
+    overflow: auto;
+}

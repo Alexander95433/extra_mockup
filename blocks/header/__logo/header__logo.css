@@ -1,5 +1,5 @@
 .header__logo {
-    padding: 0 var(--padding-header);
+    padding: 0 25px;
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -2,8 +2,8 @@
     font-family: 'Neue_Machina';
     font-style: normal;
     font-weight: 400;
-    font-size: var(--sites__block-title-font-size);
-    line-height: var(--sites__block-title-line-height);
+    font-size: 20px;
+    line-height: 24px;
     letter-spacing: -0.01em;
     margin: 0;
     padding: 0.8rem 0 0 1.8rem;

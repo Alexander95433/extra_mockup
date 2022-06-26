@@ -3,8 +3,8 @@
     font-family: 'Formular';
     font-style: normal;
     font-weight: 300;
-    font-size: var(--subtitle-font-size);
-    line-height: var(--subtitle-line-height);
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: -0.01em;
     margin: 0;
     padding: 1.9rem 0 0 9.3rem;

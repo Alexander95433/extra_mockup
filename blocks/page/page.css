@@ -1,8 +1,8 @@
 .page {
-    max-width: var(--content-width);
+    max-width: 1440px;
     min-width: 300px;
-    margin:0 auto 0;
-    font-family:'Formular', 'Neue_Machina', Arial, Helvetica, sans-serif;
+    margin: 0 auto 0;
+    font-family: 'Formular', 'Neue_Machina', Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: var(--color-beige);
     -moz-osx-font-smoothing: grayscale;
@@ -12,55 +12,7 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     --color-green: #B7C09D;
-    --color-beige: #ECEBE8;  
+    --color-beige: #ECEBE8;
     --color-white: white;
-    --content-width:1440px;
-    /*header*/
-    --padding-header:25px;
-    --gap-header:25px;
-
-
-    /*title-poster*/
-    --title-font-size: 64px;
-    --title-line-height: 60px;
-
-    --titl-font-size-min: 36px;
-    --title-line-height-min: 38px;
-
-    --subtitle-font-size: 20px;
-    --subtitle-line-height: 28px;
-
-    --subtitle-font-size-min: 16px;
-    --subtitle-line-height-min: 22px;
-   
-    --news__title-font-size: 28px;
-    --news__title-line-height: 32px;
-    /*sites*/
-    --sites__block-title-font-size: 20px;
-    --sites__block-title-line-height: 24px;
-    --sites__block-subtitle-font-size: 16px; 
-    --sites__block-subtitle-line-height: 22px;
-    --sites__block-link-font-size: 16px;
-    --sites__block-link-line-height: 24px;
-
-    /*video-archive*/
-    --video-archive__subtitle-font-size: 20px;
-    --video-archive__subtitle-line-height: 28px;
-
-    /*festival-Partners*/
-    --festival-Partners__picture-description-font-size: 14px;
-    --festival-Partners__picture-description-line-height: 20px;
-
-    --festival-Partners__tetle-font-size: 28px;
-    --festival-Partners__tetle-line-height: 32px;
-
-    /*footer*/
-    --footer__string-font-size: 14px;
-    --footer__string-line-height: 17px;
-
-    --link-font-size:16px;
-    --link-line-height:14px;
     --link-text-color: #242424;
-    
-
 }

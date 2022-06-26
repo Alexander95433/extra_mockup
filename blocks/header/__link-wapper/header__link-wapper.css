@@ -6,10 +6,10 @@
 
 .header__link-wapper:nth-child(9) {
     border-left: solid 1px;
-    padding-left: var(--padding-header);
+    padding-left: 25px;
 }
 
 .header__link-wapper:nth-child(13) {
     border-right: solid 1px;
-    padding-right: var(--padding-header);
+    padding-right: 25px;
 }

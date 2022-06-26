@@ -2,8 +2,8 @@
     font-family: 'Neue_Machina';
     font-style: normal;
     font-weight: 400;
-    font-size: var(--titl-font-size-min);
-    line-height: var(--title-line-height-min);
+    font-size: 36px;
+    line-height: 38px;
     grid-area: content__title;
     margin: 0.6rem 0 0;
 }

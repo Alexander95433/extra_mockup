@@ -1,6 +1,6 @@
 .header__links {
     display: grid;
     grid-template-columns: repeat(14, min-content);
-    gap: var(--gap-header);
+    gap: 25px;
     list-style-type: none;
 }
