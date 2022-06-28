@@ -109,18 +109,13 @@
 @import url(../blocks/blog-block/blog-block.css);
 
 .body {
-    background-color: #E5E5E5;
-    
-}
 
-.sss {
-    position: fixed;
-height: 100%;
+    background-color: #E5E5E5;
 }
 
 .main {
     position: relative;
-    /*overflow-y: scroll;*/
+    overflow: hidden;
     background-color: var(--color-beige);
     display: grid;
     grid-template-columns: 1fr 380px;

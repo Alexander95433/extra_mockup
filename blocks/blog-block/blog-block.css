@@ -1,20 +1,19 @@
 .blog-block {
-    position: relative;
-    top: 107px;
+    position: absolute;
+    top: 98px;
     height: 740px;
-    right: 0;
     width: 440px;
     background-color: var(--color-green);
     box-sizing: border-box;
     overflow: auto;
     grid-area: bb-ar;
-    /*transform: translateX(200px);*/
+    transform: translateX(200px);
     transition:  .2s linear;
     /*clip: rect(0px, 422px, auto, 0);*/
 }
 
 .blog-block:hover {
-    transform: translateX(-41px);
+    transform: translateX(-10px);
    /*clip: rect(0px, 500px, 100px, 0px);*/
-    transition: clip .2s linear;
+    transition: transform .2s linear;
 }

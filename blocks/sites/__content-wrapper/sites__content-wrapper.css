@@ -1,12 +1,12 @@
 .sites__content-wrapper {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
-.sites__content-wrapper:first-of-type {
+/*.sites__content-wrapper:first-of-type {
     margin-left: 59.2px;
 }
 
 .sites__content-wrapper:last-of-type {
     margin-right: 59.2px;
-}
+}*/
