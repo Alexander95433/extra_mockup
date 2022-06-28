@@ -1,11 +1,20 @@
 .blog-block {
-    position: fixed;
+    position: relative;
+    top: 107px;
     height: 740px;
-    top: 65px;
-    right: 0px;
+    right: 0;
     width: 440px;
     background-color: var(--color-green);
-    z-index: 1;
     box-sizing: border-box;
     overflow: auto;
+    grid-area: bb-ar;
+    /*transform: translateX(200px);*/
+    transition:  .2s linear;
+    /*clip: rect(0px, 422px, auto, 0);*/
+}
+
+.blog-block:hover {
+    transform: translateX(-41px);
+   /*clip: rect(0px, 500px, 100px, 0px);*/
+    transition: clip .2s linear;
 }

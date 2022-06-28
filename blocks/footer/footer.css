@@ -1,4 +1,5 @@
 .footer {
+    background-color: var(--color-beige);
     width: 100%;
     margin-top: 11.1rem;
     display: grid;

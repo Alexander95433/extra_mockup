@@ -1,4 +1,5 @@
 .sites {
     width: 100%;
     background-color: var(--color-white);
+    grid-area: sites-ar;
 }

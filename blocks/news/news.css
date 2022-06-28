@@ -1,5 +1,7 @@
 .news {
     margin-top: 7.6rem;
     margin-left: 2rem;
-    width: calc(100% - 21.1rem);
+    margin-right: 2rem;
+    
+    grid-area: news-ar;
 }

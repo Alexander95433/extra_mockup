@@ -1,3 +1,4 @@
 .festival-partners {
-    max-width: 65.62rem;
+    max-width: 100%;
+    grid-area: festival-partners-ar;
 }

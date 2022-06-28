@@ -1,4 +1,5 @@
 .video-archive {
     width: 100%;
     background-color: var(--color-green);
+    grid-area: video-archive-ar;
 }

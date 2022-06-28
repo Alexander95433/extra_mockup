@@ -108,45 +108,30 @@
 @import url(../blocks/blog-block/__title/blog-block__title.css);
 @import url(../blocks/blog-block/blog-block.css);
 
+.body {
+    background-color: #E5E5E5;
+    
+}
 
+.sss {
+    position: fixed;
+height: 100%;
+}
 
+.main {
+    position: relative;
+    /*overflow-y: scroll;*/
+    background-color: var(--color-beige);
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    grid-template-rows: repeat(6, max-content);
+    grid-template-areas:
+        "title-poster-ar bb-ar"
+        "content-ar bb-ar"
+        "news-ar news-ar"
+        "sites-ar sites-ar"
+        "video-archive-ar video-archive-ar"
+        "festival-partners-ar festival-partners-ar"
+    ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

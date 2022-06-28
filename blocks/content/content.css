@@ -1,7 +1,10 @@
 .content {
     margin: 109PX 0 0 92px;
-    width: calc(100% - 338px);
+    /*width: calc(100% - 338px);*/
+    max-width: 961px;
     display: grid;
     grid-template-columns: repeat(1, 3fr) repeat(1, 1fr) repeat(1, 3fr);
+    grid-template-rows: repeat(3,max-content);
+    grid-area: content-ar;
 
 }
