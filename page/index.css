@@ -109,13 +109,21 @@
 @import url(../blocks/blog-block/blog-block.css);
 
 .body {
-
     background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.blog-block-mask {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 200px;
+    z-index: 2;
+    
 }
 
 .main {
     position: relative;
-    overflow: hidden;
     background-color: var(--color-beige);
     display: grid;
     grid-template-columns: 1fr 380px;

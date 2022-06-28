@@ -1,5 +1,5 @@
 .blog-block {
-    position: absolute;
+    position: sticky;
     top: 98px;
     height: 740px;
     width: 440px;
@@ -7,13 +7,11 @@
     box-sizing: border-box;
     overflow: auto;
     grid-area: bb-ar;
-    transform: translateX(200px);
+    transform: translateX(136px);
     transition:  .2s linear;
-    /*clip: rect(0px, 422px, auto, 0);*/
 }
 
 .blog-block:hover {
     transform: translateX(-10px);
-   /*clip: rect(0px, 500px, 100px, 0px);*/
     transition: transform .2s linear;
 }
