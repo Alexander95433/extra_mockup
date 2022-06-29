@@ -1,5 +1,5 @@
 .page {
-    width: 1440px;
+    width: 100%;
     min-width: 300px;
     font-family: 'Formular', 'Neue_Machina', Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -10,8 +10,4 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    --color-green: #B7C09D;
-    --color-beige: #ECEBE8;
-    --color-white: white;
-    --link-text-color: #242424;
 }

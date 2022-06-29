@@ -1,4 +1,6 @@
 .title-poster {
+    position: relative;
+    left: 261px;
     margin-top: 65px;
     grid-area: title-poster-ar;
 }

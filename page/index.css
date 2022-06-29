@@ -10,7 +10,7 @@
 @import url(../blocks/logo/logo.css);
 
 /*header-wrapper*/
-@import url(../blocks/header-wrapper/header-wrapper.css);
+/*@import url(../blocks/header-wrapper/header-wrapper.css);*/
 
 /*header*/
 @import url(../blocks/header/header.css);
@@ -109,20 +109,43 @@
 @import url(../blocks/blog-block/blog-block.css);
 
 .body {
-    background-color: #E5E5E5;
-    display: flex;
+    width: 1440px;
+    margin: auto;
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-columns: 1px 1fr 1px;
     justify-content: center;
     flex-direction: row-reverse;
+    --color-green: #B7C09D;
+    --color-beige: #ECEBE8;
+    --color-white: white;
+    --color-background: #E5E5E5;
+    --link-text-color: #242424;
 }
+
 .blog-block-mask {
     position: relative;
-    background-color: #E5E5E5;
-    width: 200px;
+    background-color: var(--color-background);
+    width: 230px;
+    z-index: 3;
+    left: 1441px;
+    
+
+}
+
+.blog-block-road {
+    position: relative;
+    /* background-color: #E5E5E5; */
+    width: 1px;
     z-index: 2;
+   
+    
+
     
 }
 
 .main {
+    width: 100%;
     position: relative;
     background-color: var(--color-beige);
     display: grid;

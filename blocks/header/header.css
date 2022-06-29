@@ -8,5 +8,5 @@
     justify-content: space-between;
     border-bottom: solid 1px;
     background-color: var(--color-beige);
-    z-index: 1;
+    z-index: 5;
 }

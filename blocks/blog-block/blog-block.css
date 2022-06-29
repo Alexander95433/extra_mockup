@@ -1,17 +1,19 @@
 .blog-block {
     position: sticky;
-    top: 98px;
+    top:48px;
     height: 740px;
     width: 440px;
     background-color: var(--color-green);
     box-sizing: border-box;
     overflow: auto;
     grid-area: bb-ar;
-    transform: translateX(136px);
+    transform: translateX(-230px);
     transition:  .2s linear;
+    margin-bottom: 100px;
+    
 }
 
 .blog-block:hover {
-    transform: translateX(-10px);
+    transform: translateX(-384px);
     transition: transform .2s linear;
 }
