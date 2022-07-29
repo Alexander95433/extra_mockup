@@ -4,4 +4,10 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    transition:  .2s linear;
+}
+.festival-partners__picture-wrapper:hover {
+    box-shadow: 0px 0px 18px 5px #cbd4ae;
+    border-radius: 10px;
+    transition: box-shadow .2s linear;
 }
