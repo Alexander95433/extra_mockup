@@ -19,6 +19,8 @@
 ### HTML:
 - **Семантические теги**
 ### CSS:
+- **Position relative, absalute**
+- **@keyframes aynmation**
 - **Flexbox**
 - **Grid-layout**
 - **БЭМ Nested**
