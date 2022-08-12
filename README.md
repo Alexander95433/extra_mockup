@@ -19,7 +19,7 @@
 ### HTML:
 - **Семантические теги**
 ### CSS:
-- **Position relative, absalute**
+- **Position relative, absalute, fixed**
 - **@keyframes aynmation**
 - **Flexbox**
 - **Grid-layout**
