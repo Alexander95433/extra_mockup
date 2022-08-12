@@ -20,7 +20,6 @@
 - **Семантические теги**
 ### CSS:
 - **Position relative, absalute, fixed**
-- **@keyframes aynmation**
 - **Flexbox**
 - **Grid-layout**
 - **БЭМ Nested**
